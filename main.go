@@ -10,14 +10,14 @@ func main() {
 	fmt.Println("welcome")
 
 	var member = member.NewMember()
-	// member.CreateMember("Jay", "White", "jwhite@ggmail.com")
+	member.CreateMember("TreeJ", "TV", "TreeJTVgmail.com")
 
-	fetched_members, err := member.FetchMemberInfo("Tony", "TheTiger")
-	if err == nil {
-		for _, fetched_member := range fetched_members {
-			fmt.Printf("Getched Member!" + fetched_member.Email)
-		}
-	}
+	// fetched_members, err := member.FetchMemberInfo("Tony", "TheTiger")
+	// if err == nil {
+	// 	for _, fetched_member := range fetched_members {
+	// 		fmt.Printf("Getched Member!" + fetched_member.Email)
+	// 	}
+	// }
 
 	/*
 	   variables required for connection string: connStr
